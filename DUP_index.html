@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VITTORIA DUTTO</title>
+  <link rel="icon" type="image/png" href="img/LOGO_VD_NERO0.svg" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- JS -->
+  <script src="DUP_javascript.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ================================================================ NAVBAR ================================================================ -->
+  <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="DUP_index.html">
+        <img src="img/LOGO_VD0.svg" alt="Logo" width="50" height="50" />
+        <span class="ms-2">DUTTO VITTORIA</span>
+      </a>
+
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="DUP_index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="DUP_portfolio.html">PORTFOLIO</a></li>
+        </ul>
+      </div>
+
+      <a href="DUP_contatti.html" class="btn btn-purple ms-3">CONTATTI</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================= THEME TOGGLE ============================================================= -->
+  <div class="theme-toggle-wrapper">
+    <button id="toggle-theme" class="btn theme-toggle-btn">🌙 Dark</button>
+  </div>
+
+  <!-- ================================================================ HERO ================================================================ -->
+  <section class="hero d-flex align-items-center text-center text-lg-start">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <!-- COLONNA SINISTRA: TESTO -->
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <h1 class="text-white fw-bold mb-3">Hi, I'm Vittoria 👋</h1>
+          <h2 class="text-white-50 mb-4">Graphic Designer</h2>
+
+          <p class="text-white-50">
+            Ho 21 anni e studio Design e Comunicazione al Politecnico di Torino. <br />
+            Arrivo da un background informatico, che mi ha permesso di sviluppare competenze in diversi linguaggi di programmazione, ma soprattutto un approccio metodico al progetto. <br />
+            Mi appassionano la comunicazione visiva e la progettazione grafica, soprattutto quando design e strategia lavorano insieme per creare identità chiare, coerenti e riconoscibili.
+            Nel mio lavoro cerco sempre equilibrio tra estetica, funzionalità e obiettivi di comunicazione.
+          </p>
+
+          <div class="mt-4">
+            <a href="portfolio.html" class="btn btn-light me-2">Portfolio</a>
+          </div>
+        </div>
+
+        <!-- COLONNA DESTRA: FOTO -->
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <img src="img/VIK_CORRECT.png" alt="foto di Vittoria" class="img-fluid rounded" style="max-width: 350px;" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================= SKILLS E CERTIFICATI =========================================================== -->
+  <section class="content-section py-5">
+    <div class="container text-center">
+      <h2>Benvenuto nel mio mondo</h2>
+      <p>Scopri i miei certificati e le mie skills</p>
+    </div>
+  </section>
+
+  <div class="page">
+    <div class="marquee">
+      <div class="track" id="track">
+
+        <!-- 1 -->
+        <article class="card">
+          <div class="logo">
+            <img src="img/LVMH-OEYCy31sk_brandlogos.net.svg" alt="Logo LVMH" width="44" height="44" />
+          </div>
+          <div class="stat">
+            <div class="percent">LVMH CERTIFICATE</div>
+            <p class="desc">Certificato in Creation & Branding, Retail & Customer experience emesso da Inside LVMH.</p>
+          </div>
+          <div class="author">
+            <div class="who">
+              <div class="name">Inside LVMH</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="card">
+          <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg" alt="Logo InDesign" width="44" height="44" />
+          </div>
+          <div class="stat">
+            <div class="percent">InDesign</div>
+            <p class="desc">Avanzata competenza nell’impaginazione editoriale e nella progettazione di layout complessi, con forte attenzione a leggibilità, gerarchia visiva e coerenza grafica.</p>
+          </div>
+          <div class="author">
+            <div class="who">
+              <div class="name">Adobe</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="card">
+          <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Logo Illustrator" width="44" height="44" />
+          </div>
+          <div class="stat">
+            <div class="percent">Illustrator</div>
+            <p class="desc">Solida padronanza nella creazione di illustrazioni e grafiche vettoriali professionali, con elevato controllo tecnico e cura del dettaglio.</p>
+          </div>
+          <div class="author">
+            <div class="who">
+              <div class="name">Adobe</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARTE DUPLICATE PER LOOP -->
+        <article class="card">
+          <div class="logo">
+            <img src="img/LVMH-OEYCy31sk_brandlogos.net.svg" alt="Logo LVMH" width="44" height="44" />
+          </div>
+          <div class="stat">
+            <div class="percent">LVMH CERTIFICATE</div>
+            <p class="desc">Certificato in Creation & Branding, Retail & Customer experience emesso da Inside LVMH.</p>
+          </div>
+          <div class="author">
+            <div class="who">
+              <div class="name">Inside LVMH</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg" alt="Logo InDesign" width="44" height="44" />
+          </div>
+          <div class="stat">
+            <div class="percent">InDesign</div>
+            <p class="desc">Avanzata competenza nell’impaginazione editoriale e nella progettazione di layout complessi, con forte attenzione a leggibilità, gerarchia visiva e coerenza grafica.</p>
+          </div>
+          <div class="author">
+            <div class="who">
+              <div class="name">Adobe</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg" alt="Logo Illustrator" width="44" height="44" />
+          </div>
+          <div class="stat">
+            <div class="percent">Illustrator</div>
+            <p class="desc">Solida padronanza nella creazione di illustrazioni e grafiche vettoriali professionali, con elevato controllo tecnico e cura del dettaglio.</p>
+          </div>
+          <div class="author">
+            <div class="who">
+              <div class="name">Adobe</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ================================================================ FOOTER ================================================================ -->
+  <footer class="custom-footer text-center py-4 mt-auto">
+    <div class="container">
+      <div class="mb-3">
+        <a href="index.html" class="footer-link mx-3">HOME</a>
+        <a href="portfolio.html" class="footer-link mx-3">PORTFOLIO</a>
+        <a href="contatti.html" class="footer-link mx-3">CONTATTI</a>
+      </div>
+      <p class="mb-0 text-white-50">© 2025 Vittoria Dutto · All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+</html>
