@@ -1097,3 +1097,28 @@ body.dark-mode .theme-toggle-btn {
     margin-bottom: 12px;
   }
 }
+
+
+/* ===================================================================================== */
+/* HOME - "BENVENUTO NEL MIO MONDO" SOTTO LA FOTO (MOBILE)                                */
+/* ===================================================================================== */
+
+@media (max-width: 576px) {
+
+  /* crea spazio dopo la foto, prima della sezione "Benvenuto..." */
+  .hero {
+    padding-bottom: 40px;
+    min-height: auto; /* evita che occupi tutta la viewport e "tiri su" la sezione dopo */
+  }
+
+  /* spinge la sezione in basso (e le dà respiro laterale) */
+  .content-section {
+    margin-top: 24px;
+    padding-top: 0 !important;  /* annulla il py-5 su mobile, così non si attacca in modo strano */
+  }
+
+  .content-section .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
